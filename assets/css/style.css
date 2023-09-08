@@ -377,6 +377,23 @@ ol {
     justify-content: space-between;
 }
 
+
+/* Style for the percentage bar container */
+.percentage-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 20px;
+}
+
+/* Style for the filled percentage */
+.percentage-fill {
+    height: 100%;
+    background-color: #4caf50;
+    color: white;
+}
+
 /* Style the WhatsApp button */
 .whatsapp-button {
     position: fixed;
@@ -469,14 +486,14 @@ ol {
 }
 .header-area .navbar .menu li a {
     font-size: 16px;
-    color: #141313;
+    color: black;
     transition: .3s;
     display: block;
     padding: 26px 0px;
 }
 .header-area .navbar .menu li.active a,
 .header-area .navbar .menu li a:hover {
-    color: #700202;
+    color: #f00000;
 }
 .header-area .show-menu {
     display: none;
@@ -492,7 +509,7 @@ ol {
 .header-area .show-menu span {
     width: 100%;
     height: 1px;
-    background: #fff;
+    background: grey;
     display: block;
     transition: .4s;
 }
@@ -1974,6 +1991,10 @@ ol {
     
 }
 @media (max-width: 425px) {
+    .header-area .navbar .menu li a {
+        color: white;
+    }
+
     .about-area .about-me-box .infos h1 {
         font-size: 30px;
     }
