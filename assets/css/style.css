@@ -589,7 +589,7 @@ ol {
     will-change: transform;
     font-size: 12px;
 
-    animation: marquee 8s linear infinite;
+    animation: marquee 25s linear infinite;
 }
 
 .about-area .about-credentials-wrap .banner .marquee b {
@@ -1986,10 +1986,16 @@ ol {
     .info-box.about-services-box .icon-boxes i {
         font-size: 30px;
     }
+
+.logo{
+    width: 120px;
+}
+
     .credential-area .skills-wrap .skill-items,
     .info-box.about-client-box .clients {
         grid-template-columns: 1fr;
-    }
+        
+    } 
     .footer-area .footer-content .footer-menu {
         gap: 24px;
     }
