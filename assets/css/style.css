@@ -436,8 +436,8 @@ ol {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #edd5d5;
-    color: #fff;
+    background-color: #fff;
+    color: black;
     padding: 10px 0;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
